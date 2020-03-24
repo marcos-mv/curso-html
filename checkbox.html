@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Checkboxes e Radio Buttons</h1>
+        <div>
+            <p>Esportes</p>
+            <div>
+                <label for="esportes1"><input id='esportes1' name='esportes' value='j' type='checkbox'> Judo </label>
+            </div>
+            <div>
+                <label for='esportes2'><input id='esportes2' name='esportes' value='f' type='checkbox'> futebol</label>
+            </div>
+            <div>
+                <label for="esporte3"><input id='esporte3' name='esportes' value='c' type='checkbox'> Corrida</label>
+            </div>
+        </div>
+        <div>
+            <p>Sexos</p>
+            <div>
+                <label for="m"><input id='m' name='sexo' type='radio' value='m'> Masculino </label>
+                <label for="f"><input id='f' name='sexo' type='radio' value='f'> Feminino </label>
+            </div>
+        </div>
+        <h1>Dropdownlist</h1>
+        <div>
+            <select required='required' name="cidade" id="">
+                <option selected value="">Selecione sua Cidade</option>
+                <option value="df">Distrito Federal</option>
+                <option value="go">Goiás</option>
+            </select>
+        </div>
+        <h1>Senhas</h1>
+        <div>
+            <input type="password">
+        </div>
+        <h1>Arquivos</h1>
+        <div>
+            <form enctype="multipart/form-data" action="">
+                <input name='arquivo' id='' class='' type='file'>
+            </form>
+        </div>
+        <h1>Botões</h1>
+
+        <div>
+            <form action="" method="GET">
+                <label for="">Campo</label>
+                <input type="text" name="campo">
+                <button name='botao' class='btn' value='1' type="submit" >Salvar Dados</button>
+            </form>
+        </div>
+    </body>
+</html>
